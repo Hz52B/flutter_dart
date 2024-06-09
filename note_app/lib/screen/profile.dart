@@ -6,7 +6,6 @@ import 'package:firebase_auth/firebase_auth.dart'; // Import thư viện Firebas
 // Định nghĩa màn hình Profile
 class Profile extends StatefulWidget {
   const Profile({super.key});
-
   @override
   State<Profile> createState() => _ProfileState();
 }
