@@ -5,7 +5,7 @@ import 'package:NotesApp/screen/login.dart'; // Import màn hình đăng nhập 
 // Tạo một StatefulWidget tên là Auth_Page.
 class Auth_Page extends StatefulWidget {
   Auth_Page({super.key}); // Constructor cho Auth_Page.
-
+  
   @override
   State<Auth_Page> createState() => _Auth_PageState(); // Tạo State cho Auth_Page.
 }
