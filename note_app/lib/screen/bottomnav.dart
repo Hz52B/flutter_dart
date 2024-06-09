@@ -5,7 +5,6 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart'; // Import th∆
 
 class BottomNav extends StatefulWidget {
   const BottomNav({super.key}); // Constructor cho BottomNav.
-
   @override
   State<BottomNav> createState() => _BottomNavState(); // T·∫°o State cho BottomNav.
 }
