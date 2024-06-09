@@ -5,7 +5,6 @@ import 'package:NotesApp/data/auth_data.dart'; // Import file chứa các hàm x
 class SignUp_Screen extends StatefulWidget {
   final VoidCallback show; // Hàm callback để chuyển đổi giữa màn hình đăng ký và đăng nhập
   SignUp_Screen(this.show, {super.key}); // Constructor cho phép truyền callback
-
   @override
   State<SignUp_Screen> createState() => _SignUp_ScreenState();
 }
