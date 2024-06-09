@@ -7,7 +7,6 @@ import 'package:NotesApp/model/notes_model.dart'; // Import mô hình dữ liệ
 class Edit_Screen extends StatefulWidget {
   Note _note; // Biến lưu trữ ghi chú được chỉnh sửa
   Edit_Screen(this._note, {super.key}); // Constructor nhận ghi chú cần chỉnh sửa
-
   @override
   State<Edit_Screen> createState() => _Edit_ScreenState();
 }
