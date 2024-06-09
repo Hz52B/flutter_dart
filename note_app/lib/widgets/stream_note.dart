@@ -7,7 +7,6 @@ import '../data/firestore.dart'; // Import nguồn dữ liệu Firestore từ �
 // ignore: must_be_immutable
 class Stream_note extends StatelessWidget {
   bool done; // Biến boolean để kiểm tra trạng thái "done" của ghi chú
-
   // Hàm khởi tạo của lớp, nhận vào biến boolean done
   Stream_note(this.done, {super.key});
 
