@@ -11,7 +11,6 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   ); 
   // Khởi tạo Firebase với các tùy chọn cấu hình cụ thể cho nền tảng hiện tại (iOS/Android/Web)
-
   runApp(const MyApp()); 
   // Chạy ứng dụng Flutter, khởi tạo với widget gốc là MyApp
 }
