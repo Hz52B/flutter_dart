@@ -5,6 +5,7 @@ import 'package:flutter/material.dart'; // Thư viện Flutter để xây dựng
 import 'package:NotesApp/model/notes_model.dart'; // Model ghi chú của ứng dụng
 import 'package:uuid/uuid.dart'; // Thư viện để tạo UUID
 
+
 // Định nghĩa lớp Firestore_Datasource để quản lý dữ liệu trên Firestore
 class Firestore_Datasource {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance; // Khởi tạo Firestore
