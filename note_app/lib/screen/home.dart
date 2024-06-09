@@ -6,7 +6,6 @@ import 'package:NotesApp/widgets/stream_note.dart'; // Import widget hiển th�
 // Định nghĩa một StatefulWidget để tạo màn hình chính của ứng dụng
 class Home_Screen extends StatefulWidget {
   const Home_Screen({Key? key}) : super(key: key);
-
   @override
   State<Home_Screen> createState() => _Home_ScreenState();
 }
