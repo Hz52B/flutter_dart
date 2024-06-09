@@ -1,6 +1,7 @@
 // Import thư viện Firebase Auth để sử dụng chức năng xác thực người dùng
 import 'package:firebase_auth/firebase_auth.dart';
 
+
 // Import file firestore.dart từ thư mục data để sử dụng các hàm liên quan đến Firestore
 import 'package:NotesApp/data/firestore.dart';
 
