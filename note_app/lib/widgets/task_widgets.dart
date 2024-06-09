@@ -7,7 +7,6 @@ import 'package:NotesApp/screen/edit_screen.dart'; // Import màn hình chỉnh 
 class Task_Widget extends StatefulWidget {
   final Note _note; // Biến lưu trữ ghi chú
   Task_Widget(this._note, {super.key}); // Constructor nhận ghi chú làm tham số
-
   @override
   State<Task_Widget> createState() => _Task_WidgetState();
 }
