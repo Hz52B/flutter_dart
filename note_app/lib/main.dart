@@ -7,7 +7,6 @@ void main() async {
   // Hàm chính của ứng dụng
   WidgetsFlutterBinding.ensureInitialized(); 
   // Đảm bảo rằng các ràng buộc Flutter đã được khởi tạo trước khi gọi đến Firebase.initializeApp()
-
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   ); 
