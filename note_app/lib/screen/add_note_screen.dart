@@ -4,7 +4,6 @@ import 'package:NotesApp/data/firestore.dart'; // Import các phương thức li
 // Tạo một StatefulWidget tên là AddScreen.
 class AddScreen extends StatefulWidget {
   const AddScreen({super.key});
-
   @override
   State<AddScreen> createState() => _AddScreenState();
 }
