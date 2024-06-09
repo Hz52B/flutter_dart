@@ -7,7 +7,6 @@ import 'package:NotesApp/auth/main_page.dart'; // Import màn hình chính sau k
 class LogIN_Screen extends StatefulWidget {
   final VoidCallback show; // Hàm callback để hiển thị màn hình đăng ký
   LogIN_Screen(this.show, {super.key});
-
   @override
   State<LogIN_Screen> createState() => _LogIN_ScreenState();
 }
